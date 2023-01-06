@@ -1,0 +1,13 @@
+title SPA-sivulla vierailu
+
+selain->palvelin: GET-pyyntö
+palvelin-->selain: HTML-tiedosto
+selain->palvelin: GET-pyyntö
+palvelin-->selain: main.css
+selain->palvelin: GET-pyyntö
+palvelin-->selain: spa.js
+selain->palvelin: GET-pyyntö
+palvelin-->selain: data.json
+
+note over selain: selain renderöi tiedostot
+
