@@ -1,0 +1,7 @@
+title SPA-sivulle uuden muistiinpanon julkaisu
+
+selain->palvelin: POST-pyyntö osoitteeseen new_note_spa(uusi muistiinpano json-muodossa)
+
+
+note over selain: selaimen lataama spa.js-tiedoston koodi hoitaa muistiinpanon luonnin, lisää sen listalle ja piirtää listan uudelleen 
+selain-->palvelin: uusi muistiinpanolista
