@@ -10,7 +10,7 @@ const Parts = (props) => {
   return (
     <div>
       {props.part.map(value => (
-        <p>{value.name}: {value.exercises}</p>
+        <p key={value.id}>{value.name}: {value.exercises}</p>
       ))}
     </div>
   );
@@ -37,14 +37,17 @@ const App = () => {
     name: 'Half Stack application development',
     parts: [
       {
+        id: 1,
         name: 'Fundamentals of React',
         exercises: 10
       },
       {
+        id: 2,
         name: 'Using props to pass data',
         exercises: 7
       },
       {
+        id: 3,
         name: 'State of a component',
         exercises: 14
       }
